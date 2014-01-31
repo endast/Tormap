@@ -8,5 +8,5 @@ Usage:
 
 node app.js torlist.txt > torlist.csv
 
-I used it to create my list of tor nodes:
+I used it to create my map of tor nodes:
 http://bitly.com/tor_map
