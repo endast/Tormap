@@ -1,8 +1,8 @@
 {
   "name": "tormap",
   "version": "0.0.1",
-  "author": "Magnus Wahlberg <support@nodejitsu.com>",
-  "description": "Geocode list of tornodes",
+  "author": "Magnus Wahlberg",
+  "description": "Geocode list of tor nodes",
   "dependencies" : {
     "geoip-lite"   :  "*"
   }
