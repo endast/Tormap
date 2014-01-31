@@ -9,7 +9,7 @@ if(!rawData){
     process.exit(1);
 }
 
-console.log("ip|name|router-port|directory-port|flags|uptime|version|contactinfo|country|region|city|latitude|longitue");
+console.log("ip|name|router-port|directory-port|flags|uptime|version|contactinfo|country|region|city|latitude|longitude");
 
 var rd = readline.createInterface({
     input: fs.createReadStream(rawData),
