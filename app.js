@@ -30,5 +30,7 @@ rd.on('line', function(line) {
 
     var geo = geoip.lookup(lineParts[0]);
 
-    console.log(line+"|"+geo.country+"|"+geo.region+"|"+geo.city+"|"+geo.ll[0]+"|"+geo.ll[1]);
+    if(geo){
+        console.log(line+"|"+geo.country+"|"+geo.region+"|"+geo.city+"|"+geo.ll[0]+"|"+geo.ll[1]);
+    }
 });
